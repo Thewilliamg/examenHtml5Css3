@@ -3,10 +3,11 @@
 *{
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
 }
 .gallery .gallery_aside img{
     height: auto;
-    width: 250px;
+    width: 100px;
     border: 3px solid black;
 }
 .gallery .gallery_contain img{
@@ -19,21 +20,18 @@ main {
 }
 .product {
 }
-.product_name {
+.product_number {
 }
 .product_box {
 }
+
+.product_box .visual_imgs svg{
+    color: rgb(245, 233, 122);
+}
+
 .gallery {
 }
 .gallery_aside {
-}
-.img1 {
-}
-.img2 {
-}
-.img3 {
-}
-.img4 {
 }
 .gallery_contain {
 }
