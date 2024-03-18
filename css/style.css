@@ -63,6 +63,9 @@
   }
   
   @media (min-width:1140px){
+    .home_header{
+        margin-bottom: 15px;
+    }
     .navbar{
       padding: 1.5% 3%;
       display: flex;
@@ -97,7 +100,11 @@
         width: 50%;
     }
     .description{
-        width: 40%;
+        width: 30%;
+        justify-content: center;
+    }
+    .gallery .gallery_aside img{
+        border: 1px solid black;
     }
   }
 
@@ -106,7 +113,7 @@
 .gallery .gallery_aside img{
     height: auto;
     width: 90%;
-    border: 3px solid black;
+    border: 2px solid black;
 }
 .gallery .gallery_contain img{
     height: auto;
@@ -161,7 +168,7 @@ main {
 .product_box .description{
     display: flex;
     flex-direction: column;
-    width: auto;/*cambiar esto a 40% en pantalla*/
+    /* width: auto;cambiar esto a 40% en pantalla */
     height: auto;
     padding-left: 2%;
     justify-content: space-around;
