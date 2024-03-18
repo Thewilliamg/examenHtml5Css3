@@ -1,0 +1,41 @@
+@import url(variables.css);
+
+*{
+    margin: 0;
+    padding: 0;
+}
+.gallery .gallery_aside img{
+    height: auto;
+    width: 250px;
+    border: 3px solid black;
+}
+.gallery .gallery_contain img{
+    height: auto;
+    width: 300px;
+    border: 3px solid blue;
+}
+main {
+    background-color: var(--color-primary);
+}
+.product {
+}
+.product_name {
+}
+.product_box {
+}
+.gallery {
+}
+.gallery_aside {
+}
+.img1 {
+}
+.img2 {
+}
+.img3 {
+}
+.img4 {
+}
+.gallery_contain {
+}
+.main_img {
+}
