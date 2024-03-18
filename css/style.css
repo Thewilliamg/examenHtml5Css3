@@ -5,14 +5,17 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+
+
 .gallery .gallery_aside img{
-    height: 100px;
-    width: 100px;
+    height: auto;
+    width: 90%;
     border: 3px solid black;
 }
 .gallery .gallery_contain img{
     height: auto;
-    width: 300px;
+    width: 100%;
     border: 3px solid blue;
 }
 main {
@@ -20,12 +23,20 @@ main {
     display: flex;
     flex-direction: column;
     overflow-y: auto;
+    align-items: center;
 }
 .product {
     display: flex;
     flex-direction: column;
+    width: 96vw;
 }
 .product_number{
+    padding: 2% 0 5% 0;
+    display: flex;
+    justify-content: center;
+    color: var(--color-secundary);
+    background: var(--color-terceario);
+    width: auto;
 }
 .product_box {
     display: flex;
@@ -33,11 +44,12 @@ main {
     flex-wrap: wrap;
     justify-content: space-around;
     align-content: space-around;
-    height: 90svh;
+    height: auto;
 }
 .gallery {
     display: flex;
     flex-direction: row;
+    padding: 0 1%;
 }
 .gallery_aside {
     width: 25%;
@@ -61,6 +73,7 @@ main {
 .stars{
     display: flex;
     width: 10rem;
+    padding-bottom: 6%;
 }
 .product_box .description .stars svg{
     width: 100svh;
@@ -68,17 +81,19 @@ main {
 }
 .product_box .description h1{
     font-size:2.5rem;
+    padding-bottom: 1%;
 }
 .product_box .description p1{
     display: flex;
     font-size:1rem;
     width: 80%;
     color: white;
+    padding-bottom: 3%;
 }
 .description .price{
     color: rgb(6, 172, 6);
     font-size: 1.4rem;
-
+    padding-bottom: 4%;
 }
 .button_get{
     background-color: green;
@@ -86,11 +101,14 @@ main {
     cursor: pointer;
     border-style: none;
     padding: 2%;
+    width: 8rem;
+    margin-bottom: 5%;
 }
 .button_get a{
     text-decoration-line: none;
     color: white;
-    font-weight: bold;
+    font-weight: 700;
+    font-size: 1.3rem;
 }
 .main_img {
 }
